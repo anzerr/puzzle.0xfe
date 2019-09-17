@@ -2,6 +2,9 @@
 [logo]: https://banano.cc/assets/bananologo.svg "BANANO"
 ![alt text][logo]
 
+# `SOLVED`
+The solution has been found an write-up will be coming soon.
+
 ### `Intro`
 puzzle.0xfe is self contained, everything you need is inside the image. You're looking for a banano account this account has 30k on it.
 You can download the image from http://puzzle.0xfe.anzerr.com or https://github.com/anzerr/puzzle.0xfe
