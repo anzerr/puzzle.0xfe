@@ -11,7 +11,9 @@ You can download the image from http://puzzle.0xfe.anzerr.com or https://github.
 
 Good luck and happy hunting
 
-<div style="text-align:center"><img src="https://o1070837300zuyhrokasoviy7tgpjfhsxgnr9al1.s3-eu-west-1.amazonaws.com/TCO3GGc9bMT5IH13V8b6.svg" style="width:256px;height:256px;"></div>
+<p align="center">
+	<img src="https://o1070837300zuyhrokasoviy7tgpjfhsxgnr9al1.s3-eu-west-1.amazonaws.com/TCO3GGc9bMT5IH13V8b6.svg" width="256" height="256">
+</p>
 
 #### `Play`
 If you try and solve the puzzle, please leave a star so I can know how many have tried.
