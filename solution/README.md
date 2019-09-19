@@ -145,7 +145,7 @@ for (let x in bip.wordlists.english.array) {
 		seed.push(word[i].toString(2).padStart(8, '0').split('').map((a) => Number(a)));
 	}
 
-	const index = Number(x), offset = [(index % 45) * 32, Math.floor(index / 45) * 32];
+	const index = Number(x), offset = [(index % 46) * 32, Math.floor(index / 46) * 32];
 	for (let x in seed) {
 		for (let y in seed[x]) {
 			if (seed[x][y]) {
