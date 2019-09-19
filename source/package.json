@@ -1,0 +1,25 @@
+{
+	"name": "game.life",
+	"version": "1.0.4",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "node index.js",
+		"test": "node test/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git"
+	},
+	"eslintConfig": {
+		"extends": "eslint-config-basic"
+	},
+	"dependencies": {
+		"banano.account": "git+https://github.com/anzerr/banano.account.git",
+		"bip39": "git+https://github.com/anzerr/bip39.git",
+		"fs.promisify": "git+https://github.com/anzerr/fs.promisify.git",
+		"qr.util": "git+ssh://git@github.com/anzerr/qr.util.git"
+	}
+}

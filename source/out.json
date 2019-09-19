@@ -1,0 +1,39 @@
+{
+	"entropy": "67f7c651ced67695844739b33254f387aa95e1eca0aea95f1a29c708d18cf779",
+	"mnemonic": [
+		"gun",
+		"sail",
+		"nerve",
+		"oval",
+		"guess",
+		"enlist",
+		"baby",
+		"transfer",
+		"rebel",
+		"naive",
+		"diagram",
+		"aunt",
+		"power",
+		"valley",
+		"raw",
+		"beyond",
+		"power",
+		"web",
+		"media",
+		"mix",
+		"minimum",
+		"shoe",
+		"target",
+		"crazy"
+	],
+	"account": {
+		"seed": "67f7c651ced67695844739b33254f387aa95e1eca0aea95f1a29c708d18cf779",
+		"index": 0,
+		"secret": "6b97c106cf7e5c026e2115423c622693e0c92e4331e3633bca568199d30beb3f",
+		"pair": {
+			"public": "0ac310deab7ddf9252226cf86bef984dd4d93314811511563f72240d420c6cea",
+			"private": "6b97c106cf7e5c026e2115423c622693e0c92e4331e3633bca568199d30beb3f"
+		},
+		"account": "ban_14p545hcpzgzkbb46u9rfhqsimgnu6sjb1ao47d5ywj63o31ru9cf5msb1tg"
+	}
+}

@@ -3,7 +3,7 @@
 ![alt text][logo]
 
 # `SOLVED`
-The solution has been found an write-up will be coming soon.
+The solution has been found [here](http://github.com/anzerr/puzzle.0xfe/tree/master/solution).
 
 ### `Intro`
 puzzle.0xfe is self contained, everything you need is inside the image. You're looking for a banano account this account has 30k on it.
