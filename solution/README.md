@@ -132,5 +132,31 @@ All the valid words are in red to help with viewing the table
 	<img src="asset/map.png">
 </p>
 
+You can generate a seed for all the words with this code. The end result `"map.rle"` can found [here](https://github.com/anzerr/puzzle.0xfe/raw/master/solution/asset/map.rle). import it on https://copy.sh/life/ and watch the words evolve.
+``` javascript
+const bip = require('bip39'),
+	fs = require('fs');
+
+const cells = [];
+
+for (let x in bip.wordlists.english.array) {
+	const word = Buffer.from(bip.wordlists.english.array[x]), seed = [];
+	for (let i = 0; i < word.length; i++) {
+		seed.push(word[i].toString(2).padStart(8, '0').split('').map((a) => Number(a)));
+	}
+
+	const index = Number(x), offset = [(index % 45) * 32, Math.floor(index / 45) * 32];
+	for (let x in seed) {
+		for (let y in seed[x]) {
+			if (seed[x][y]) {
+				cells.push(`${offset[0] + Number(x)} ${offset[1] + Number(y)}`);
+			}
+		}
+	}
+}
+
+fs.writeFileSync('map.rle', `#Life 1.06\n${cells.join('\n')}`);
+```
+
 ## `Source`
 The sources for this project can be found [here](http://github.com/anzerr/puzzle.0xfe/tree/master/source). For any question I can be contacted on discord at `Thoron174#3516`
